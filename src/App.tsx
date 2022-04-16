@@ -50,7 +50,7 @@ end`
         <Box sx={{ my: 4 }}>
           <FormGroup row={true}>
             <FormControl variant="outlined" sx={{ minWidth: 120 }} size="small">
-              <InputLabel>Outputs</InputLabel>
+              <InputLabel style={{backgroundColor: "#f5f5f5"}}>Outputs</InputLabel>
               <Select
                 value={numOfOutputs}
                 onChange={(e) => setNumOfOutputs(Number(e.target.value))}
@@ -62,7 +62,6 @@ end`
               </Select>
             </FormControl>
           </FormGroup>
-          <FormGroup row={true}></FormGroup>
         </Box>
         <Box sx={{ my: 4 }}>
           <CodeMirror
