@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/miden-assembly-playground/static/css/main.1ef3a49a.css",
+    "main.js": "/miden-assembly-playground/static/js/main.875b5326.js",
+    "static/media/miden_wasm_bg.wasm": "/miden-assembly-playground/static/media/miden_wasm_bg.b7c4b234c276f771c217.wasm",
+    "index.html": "/miden-assembly-playground/index.html",
+    "main.1ef3a49a.css.map": "/miden-assembly-playground/static/css/main.1ef3a49a.css.map",
+    "main.875b5326.js.map": "/miden-assembly-playground/static/js/main.875b5326.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.1ef3a49a.css",
+    "static/js/main.875b5326.js"
+  ]
+}
