@@ -33,11 +33,9 @@ pub fn program(asm: &str, inputs: &[u64], output_count: u16) -> Vec<u64> {
 #[wasm_bindgen_test]
 fn run_program() {
     let output = program(
-        "
-        begin
+        "begin
             push.1 push.2 add
-        end
-    ",
+        end",
         &[],
         1,
     );
