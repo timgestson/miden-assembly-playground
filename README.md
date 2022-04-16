@@ -2,7 +2,7 @@
 
 Playground for Zero Knowlege Proof VM [Miden's](https://github.com/maticnetwork/miden) assembly language
 
-[Try it out!] (https://timgestson.github.io/miden-assembly-playground/)
+[Try it out on Github Pages!](https://timgestson.github.io/miden-assembly-playground/)
 
 ## Prerequisites
 
