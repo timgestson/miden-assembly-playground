@@ -1,6 +1,6 @@
 # Miden Assembly Playground
 
-Playground for Zero Knowlege Proof VM [Miden's](https://github.com/maticnetwork/miden) assembly language
+Playground for Stark-based VM [Miden's](https://github.com/maticnetwork/miden) assembly language
 
 [Try it out on Github Pages!](https://timgestson.github.io/miden-assembly-playground/)
 
@@ -19,7 +19,7 @@ Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
 Test rust code:
 
-`wasm-pack test --node`
+`cd miden-wasm && wasm-pack test --node`
 
 Build production release:
 

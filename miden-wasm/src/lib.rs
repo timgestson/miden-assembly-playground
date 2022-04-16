@@ -18,7 +18,7 @@ pub fn program(asm: &str, inputs: &[u64], output_count: u16) -> Vec<u64> {
         8,
         256,
     );
-    let (outputs, _proof) = execute(
+    let (outputs, proof) = execute(
         &program,
         &ProgramInputs::from_stack_inputs(inputs).unwrap(),
         output_count as usize,
@@ -26,7 +26,7 @@ pub fn program(asm: &str, inputs: &[u64], output_count: u16) -> Vec<u64> {
     )
     .unwrap();
     // TODO: Investigate why proof verification fails when outputCount > 1
-    //assert!(miden::verify(*program.hash(), &[], &outputs, proof).is_ok());
+    assert!(miden::verify(*program.hash(), &[], &outputs, proof).is_ok());
     outputs
 }
 
@@ -37,7 +37,7 @@ fn run_program() {
             push.1 push.2 add
         end",
         &[],
-        1,
+        2,
     );
     assert_eq!(output[0], 3)
 }
