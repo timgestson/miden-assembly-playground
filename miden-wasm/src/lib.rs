@@ -37,7 +37,7 @@ fn run_program() {
             push.1 push.2 add
         end",
         &[],
-        2,
+        1,
     );
     assert_eq!(output[0], 3)
 }
